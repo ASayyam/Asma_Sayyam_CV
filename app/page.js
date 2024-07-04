@@ -1,113 +1,223 @@
-import Image from "next/image";
+
+        import Head from 'next/head';
+import styles from '../styles/CV.module.css';
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">app/page.js</code>
-        </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
-      </div>
+    <div className={styles.container}>
+      <Head>
+        <title>Asma Sayyam's CV</title>
+      </Head>
+      <main className={styles.main}>
+        {/* <h1 className={styles.title}>ASMA SAYYAM</h1> */}
+        <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Arial&size=35&duration=5004&pause=1000&color=2FF72D&random=false&width=435&lines=Hi+there%2C+I'm+Asma+Sayyam" alt="Typing SVG" /></a>
+        
+        <p>LANE # 8, House #19, Chatha Bakhtawar Islamabad, Pakistan</p>
+        <p>Cell #:  0336-5582358 / 0332-5601171</p>
+        <p>sayyama2024@gmail.com</p>
+        
+        <section className={styles.section}>
+          <h2>OBJECTIVE:</h2>
+          <p>My main objective is to serve humanity with passion.</p>
+        </section>
+        
+        <section className={styles.section}>
+          <h2>PERSONAL INFORMATION:</h2>
+          <p>Father’s Name: Muhammad Hussain Tallat</p>
+          <p>C.N.I.C #: 61101-9096055-2</p>
+          <p>Religion: Islam</p>
+          <p>Marital Status: Single</p>
+        </section>
+        
+        <section className={styles.section}>
+          {/* <h2>ACADEMIC QUALIFICATION:</h2> */}
+          <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Arial&size=30&duration=5004&pause=1000&color=2FF72D&random=false&width=435&lines=ACADEMIC QUALIFICATION" alt="Typing SVG" /></a>
+          <table className={styles.table}>
+            <thead>
+              <tr>
+                <th>YEAR</th>
+                <th>DEGREE</th>
+                <th>BOARD/ UNIVERSITY</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>2019</td>
+                <td>M.Phil Science Edu. (Thesis continue, only viva left)</td>
+                <td>AIOU</td>
+              </tr>
+              <tr>
+                <td>2016</td>
+                <td>M.Ed(Thesis)</td>
+                <td>AIOU</td>
+              </tr>
+              <tr>
+                <td>2016</td>
+                <td>M.A (English)</td>
+                <td>Punjab University</td>
+              </tr>
+              <tr>
+                <td>2015</td>
+                <td>B.Ed</td>
+                <td>AIOU</td>
+              </tr>
+              <tr>
+                <td>2008</td>
+                <td>B.Sc</td>
+                <td>Punjab University</td>
+              </tr>
+              <tr>
+                <td>2006</td>
+                <td>F.Sc</td>
+                <td>Federal Board</td>
+              </tr>
+              <tr>
+                <td>2004</td>
+                <td>SSC</td>
+                <td>Federal Board</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+        
+        <section className={styles.section}>
+          {/* <h2>WORKSHOPS ATTENDED:</h2> */}
+          <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Arial&size=30&duration=5004&pause=1000&color=2FF72D&random=false&width=435&lines=WORKSHOPS ATTENDED" alt="Typing SVG" /></a>
+          <ul>
+            <li>Attended the workshop on “Nelson English & Urdu ka Guldasta” by Oxford University Press on 10th Jan. 2017.</li>
+            <li>“Certificate of Participation” in training workshop on “Educational Leadership and Management” October 2017, organized by AFAQ and NUML Islamabad.</li>
+            <li>Certificate of Successful Participation in Learn how to teach English, 3-day Teachers’ Training Workshop on “Teaching of English in Schools” on 14-16, 2017 organized by Association For Academic Quality (AFAQ).</li>
+            <li>Certificate for successful completion of “Beyond ABC: Synthetic Phonics Workshop” organized by LTH( London Tesol House), Dec. 2017.</li>
+            <li>Workshop on “Scholastic Active English” held by Paramount at IIUI campus Islamabad on 17th Feb. 2018.</li>
+            <li>Certificate of Participation in a workshop on “ Marshall Cavendish English Heads up”, held at Islamabad. 24th Jan. 2019</li>
+            <li>Certificate of participation in a workshop on Learning A-Z ( RAZ Plus), organized by Paramount, held at Ramada, 16th Feb. 2019.</li>
+            <li>Certificate of active participation in “ Using Stories & Visuals to Enhance Literacy Development” workshop, University of British Columbia. June 2019.</li>
+            <li>Certificate of active participation in “ School Leader as a Game Changer” workshop by Tiflee Education. November 2019.</li>
+            <li>Certificate of successful participation in one day online training workshop on “ 150 Teaching Methods” hold on 28th March 2021, conducted by YDI Training and Consultancy Mardan in Collaboration with OFAQ KPK.</li>
+            <li> Certificate of successful participation in one day online training workshop on “ The Successful Methods to Teach Reading” hold on 3rd April 2021, conducted by EDGE (Empowerment Development Growth Evolution) in collaboration with Evolution</li>
+          </ul>
+        </section>
+        
+        <section className={styles.section}>
+          {/* <h2>SHORT COURSES:</h2> */}
+          <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Arial&size=30&duration=5004&pause=1000&color=2FF72D&random=false&width=435&lines=SHORT COURSES" alt="Typing SVG" /></a>
+          <ul>
+            <li>“IT Skills Beginners Course”, STI (Sitara Teachers’ Institute) 2012.</li>
+            <li>“English language Course for Teachers” with A+ grade, Gosha-e-Msahal, 2013.</li>
+            <li>“Child Development, Teaching Course”, STI, 2012.</li>
+            <li>“Teaching For Understanding”, STI, 2013.</li>
+            <li>“IT Skills MS Word & MS Excel”, STI, 2012.</li>
+          </ul>
+        </section>
 
-      <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-full sm:before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-full sm:after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]">
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
+        <section className={styles.section}>
+          {/* <h2>ONGOING COURSE:</h2> */}
+          <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Arial&size=30&duration=5004&pause=1000&color=2FF72D&random=false&width=435&lines=ONGOING COURSE" alt="Typing SVG" /></a>
+          <ul>
+            <li>"Certified Cloud Native Applied Generative AI Engineer" course from The Presidential Initiative for Artificial Intelligence and Computing (PIAIC), started in 2023.</li>
+            In this course, I learned about:
+            <li>Typescript</li>
+            <li>Next.js</li>
+            <li>Tailwind CSS</li>
+            <li>Python</li>
+            <li>How to make APIs using FastAPI</li>
+            <li>How to work with Docker</li>
+            <li>Dev containers</li>
+            <li>Kong</li>
+            <li>Kafka</li>
+            <li>How to run multiple services</li>
+            <li>Postman</li>
+            <li>PgAdmin</li>
+            <li>SQL</li>
+            <li>POstgresql</li>
+            <li>Database</li>
+            <li>How to work on Azure</li>
+            <li>How to use Azure to deploy microservices</li>
+  	        <li>How to deploy projects on GitHub</li>
+            <li>Design Thinking</li>
+            <li>Serverless and Serverless Containers</li>
+          
 
-      <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Docs{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
+                       
+          </ul>
+          Related Projects:
+          <li>Innitiated Programming Lab. for High School Students at Sitara School</li>
+          <li>Online Imtiaz Mart</li>
+            <li>My Prtfolio</li>
+            <li>Github Profile</li>
+            <li>My Personal CV on Next.js, using HTML, Tailwind CSS and TypeScript </li>
+            <li>CLI Calculator using TypeScript</li>
+            
 
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800 hover:dark:bg-opacity-30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Learn{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Templates{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Explore starter templates for Next.js.
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Deploy{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50 text-balance`}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
+        </section>
+        
+        <section className={styles.section}>
+          {/* <h2>CERTIFICATES:</h2> */}
+          <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Arial&size=30&duration=5004&pause=1000&color=2FF72D&random=false&width=435&lines=CERTIFICATES" alt="Typing SVG" /></a>
+          <ul>
+            <li> “Certificate of Appreciation” from Sitara School and Teachers’ Institute for dedication & service for the session 2013-14.</li>
+            <li>“Certificate of Appreciation” from Sitara School and Teachers’ Institute for dedication & service for the session 2014-15.</li>
+            <li>“Certificate of Appreciation” from Sitara school and Teachers’ Institute for dedication & service for the session 2015-16.</li>
+            <li>“Certificate of Appreciation” from Sitara school and Teachers’ Institute for dedication & service for the session 2016-17.</li>
+            <li>“Certificate of Participation” in 1st National Graduate Conference on 15-16 March 2017 at Allama Iqbal Open University (AIOU).</li>
+            <li>“Certificate of Best Oral Presentation” in 1st Graduate Conference on 15-16 March 7 at Allama Iqbal Open University (AIOU).</li>
+            <li>“Certificate of Participation” in Private School Management Association (PSMA) Regd. 15th annual prize distribution and best teacher award ceremony On 9th November, 2017.</li>
+            <li>“Certificate of Participation” in worldwide project “Innovate Your Dreams” April 1 to March 31, 2019.</li>
+            <li>“Certificate of Appreciation” by Sitara School and Teachers’ Institute in recognition of outstanding contributions to the academic and spiritual growth and development of Sitara School students for the session 2017-2018.</li>
+            <li>“Certificate of Appreciation” by Sitara School and Teachers’ Institute in recognition of outstanding contributions to the academic and spiritual growth and development of Sitara School students for the session 2018-2019.</li>
+            <li> “Certificate of Appreciation” by Sitara School and Teachers’ Institute in recognition of outstanding contributions to the academic and spiritual growth and development of Sitara School students for the session 2019-2020.</li>
+          </ul>
+        </section>
+        
+        <section className={styles.section}>
+          {/* <h2>OTHER EXPERIENCES:</h2> */}
+          <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Arial&size=30&duration=5004&pause=1000&color=2FF72D&random=false&width=435&lines=OTHER EXPERIENCES" alt="Typing SVG" /></a>
+          <ul>
+            <li>Board Member of Sitara School & Teachers’ Institute. (Trust Regd.) from last 9 years.</li>
+            <li>Teachers’ trainer at Sitara School & Teachers’ Institute. (Trust Regd.) from last 5 years.</li>
+            <ul>
+              <li>Conceptual Teaching</li>
+              <li>Self Development</li>
+              <li>MS Office, Word & PowerPoint</li>
+              <li>Activity Based Teaching</li>
+              <li>Integrated Thematic Teaching</li>
+              
+            
+            </ul>
+          </ul>
+        </section>
+        
+        <section className={styles.section}>
+          <h2>QUALITIES:</h2>
+          <ul>
+            <li>Talib-e-Ilm</li>
+            <li>Trustworthy</li>
+            <li>Dedicated</li>
+            <li>Committed</li>
+            <li>Responsible</li>
+            <li>Punctual</li>
+            <li>Honest</li>
+            <li>Team Maker</li>
+            <li>Have a strong Spirit to Motivate others for a Valuable cause</li>
+          </ul>
+        </section>
+        
+        <section className={styles.section}>
+          <h2>INTERESTS:</h2>
+          <p>Book reading & net surfing especially related to “IT,Self Development & Personal Growth”. Loves to spend time in “Taffakur”. Special Interest in Sufism, Islamic History, and Exploring the Quran. Philosophy and psychology are also my favorite subjects. Above all, I love to study humans. In sports, I like to play cricket and badminton.</p>
+        </section>
+        
+        <section className={styles.section}>
+          <h2>LANGUAGES:</h2>
+          <p>Fluent in Punjabi, Urdu & English.</p>
+        </section>
+        
+        <section className={styles.section}>
+          <h2>REFERENCES:</h2>
+          <p>Will be furnished upon request.</p>
+        </section>
+      </main>
+    </div>
   );
 }
+
