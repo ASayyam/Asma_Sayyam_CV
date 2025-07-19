@@ -32,7 +32,7 @@ export default function Home() {
         
         <section className={styles.section}>
           {/* <h2>ACADEMIC QUALIFICATION:</h2> */}
-          <a href="https://git.io/typing-svg"><Image src="https://readme-typing-svg.herokuapp.com?font=Arial&size=30&duration=5004&pause=1000&color=2FF72D&random=false&width=435&lines=ACADEMIC QUALIFICATION" alt="Typing SVG" /></a>
+          <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Arial&size=30&duration=5004&pause=1000&color=2FF72D&random=false&width=435&lines=ACADEMIC QUALIFICATION" alt="Typing SVG" /></a>
           <table className={styles.table}>
             <thead>
               <tr>
@@ -83,7 +83,7 @@ export default function Home() {
         
         <section className={styles.section}>
           {/* <h2>WORKSHOPS ATTENDED:</h2> */}
-          <a href="https://git.io/typing-svg"><Image src="https://readme-typing-svg.herokuapp.com?font=Arial&size=30&duration=5004&pause=1000&color=2FF72D&random=false&width=435&lines=WORKSHOPS ATTENDED" alt="Typing SVG" /></a>
+          <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Arial&size=30&duration=5004&pause=1000&color=2FF72D&random=false&width=435&lines=WORKSHOPS ATTENDED" alt="Typing SVG" /></a>
           <ul>
             <li>Attended the workshop on Nelson English & Urdu ka Guldasta by Oxford University Press on 10th Jan. 2017.</li>
             <li>Certificate of Participation in training workshop on Educational Leadership and Management October 2017, organized by AFAQ and NUML Islamabad.</li>
@@ -101,7 +101,7 @@ export default function Home() {
         
         <section className={styles.section}>
           {/* <h2>SHORT COURSES:</h2> */}
-          <a href="https://git.io/typing-svg"><Image src="https://readme-typing-svg.herokuapp.com?font=Arial&size=30&duration=5004&pause=1000&color=2FF72D&random=false&width=435&lines=SHORT COURSES" alt="Typing SVG" /></a>
+          <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Arial&size=30&duration=5004&pause=1000&color=2FF72D&random=false&width=435&lines=SHORT COURSES" alt="Typing SVG" /></a>
           <ul>
             <li>IT Skills Beginners Course, STI (Sitara Teachers Institute) 2012.</li>
             <li>English language Course for Teachers with A+ grade, Gosha-e-Msahal, 2013.</li>
@@ -113,7 +113,7 @@ export default function Home() {
 
         <section className={styles.section}>
           {/* <h2>ONGOING COURSE:</h2> */}
-          <a href="https://git.io/typing-svg"><Image src="https://readme-typing-svg.herokuapp.com?font=Arial&size=30&duration=5004&pause=1000&color=2FF72D&random=false&width=435&lines=ONGOING COURSE" alt="Typing SVG" /></a>
+          <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Arial&size=30&duration=5004&pause=1000&color=2FF72D&random=false&width=435&lines=ONGOING COURSE" alt="Typing SVG" /></a>
           <ul>
             <li>Certified Cloud Native Applied Generative AI Engineer course from The Presidential Initiative for Artificial Intelligence and Computing (PIAIC), started in 2023.</li>
             In this course, I learned about:
@@ -156,7 +156,7 @@ export default function Home() {
         
         <section className={styles.section}>
           {/* <h2>CERTIFICATES:</h2> */}
-          <a href="https://git.io/typing-svg"><Image src="https://readme-typing-svg.herokuapp.com?font=Arial&size=30&duration=5004&pause=1000&color=2FF72D&random=false&width=435&lines=CERTIFICATES" alt="Typing SVG" /></a>
+          <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Arial&size=30&duration=5004&pause=1000&color=2FF72D&random=false&width=435&lines=CERTIFICATES" alt="Typing SVG" /></a>
           <ul>
             <li> “Certificate of Appreciation from Sitara School and Teachers Institute for dedication and service for the session 2013-14.</li>
             <li>“Certificate of Appreciation from Sitara School and Teachers Institute for dedication and service for the session 2014-15.</li>
@@ -174,7 +174,7 @@ export default function Home() {
         
         <section className={styles.section}>
           {/* <h2>OTHER EXPERIENCES:</h2> */}
-          <a href="https://git.io/typing-svg"><Image src="https://readme-typing-svg.herokuapp.com?font=Arial&size=30&duration=5004&pause=1000&color=2FF72D&random=false&width=435&lines=OTHER EXPERIENCES" alt="Typing SVG" /></a>
+          <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Arial&size=30&duration=5004&pause=1000&color=2FF72D&random=false&width=435&lines=OTHER EXPERIENCES" alt="Typing SVG" /></a>
           <ul>
             <li>Board Member of Sitara School & Teachers Institute. (Trust Regd.) from last 9 years.</li>
             <li>Teachers trainer at Sitara School and Teachers Institute. (Trust Regd.) from last 5 years.</li>
