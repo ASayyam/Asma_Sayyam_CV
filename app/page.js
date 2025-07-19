@@ -11,7 +11,7 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
         {/* <h1 className={styles.title}>ASMA SAYYAM</h1> */}
-        <a href="https://git.io/typing-svg"><Image src="https://readme-typing-svg.herokuapp.com?font=Arial&size=35&duration=5004&pause=1000&color=2FF72D&random=false&width=435&lines=Hi+there%2C+I'm+Asma+Sayyam" alt="Typing SVG" /></a>
+        <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Arial&size=35&duration=5004&pause=1000&color=2FF72D&random=false&width=435&lines=Hi+there%2C+I'm+Asma+Sayyam" alt="Typing SVG" /></a>
         
         <p>Green Avenue, Islamabad, Pakistan</p>
         <p>Cell #:  0336-5582358 / 0332-5601171</p>
