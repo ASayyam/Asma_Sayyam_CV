@@ -12,7 +12,7 @@ export default function Home() {
         {/* <h1 className={styles.title}>ASMA SAYYAM</h1> */}
         <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Arial&size=35&duration=5004&pause=1000&color=2FF72D&random=false&width=435&lines=Hi+there%2C+I'm+Asma+Sayyam" alt="Typing SVG" /></a>
         
-        <p>LANE # 8, House #19, Chatha Bakhtawar Islamabad, Pakistan</p>
+        <p>Green Avenue, Islamabad, Pakistan</p>
         <p>Cell #:  0336-5582358 / 0332-5601171</p>
         <p>sayyama2024@gmail.com</p>
         
@@ -26,7 +26,7 @@ export default function Home() {
           <p>Father’s Name: Muhammad Hussain Tallat</p>
           <p>C.N.I.C #: 61101-9096055-2</p>
           <p>Religion: Islam</p>
-          <p>Marital Status: Single</p>
+        
         </section>
         
         <section className={styles.section}>
@@ -37,44 +37,44 @@ export default function Home() {
               <tr>
                 <th>YEAR</th>
                 <th>DEGREE</th>
-                <th>BOARD/ UNIVERSITY</th>
+              
               </tr>
             </thead>
             <tbody>
               <tr>
                 <td>2019</td>
-                <td>M.Phil Science Edu. (Thesis continue, only viva left)</td>
-                <td>AIOU</td>
+                <td>M.Phil (Science Education)</td>
+               
               </tr>
               <tr>
                 <td>2016</td>
-                <td>M.Ed(Thesis)</td>
-                <td>AIOU</td>
+                <td>M.Ed.(Master of Education)</td>
+               
               </tr>
               <tr>
                 <td>2016</td>
                 <td>M.A (English)</td>
-                <td>Punjab University</td>
+               
               </tr>
               <tr>
                 <td>2015</td>
-                <td>B.Ed</td>
-                <td>AIOU</td>
+                <td>B.Ed.(Bachelor of Education)</td>
+              
               </tr>
               <tr>
                 <td>2008</td>
-                <td>B.Sc</td>
-                <td>Punjab University</td>
+                <td>B.Sc(Mathematics A, Mathematics B,Statistics)</td>
+               
               </tr>
               <tr>
                 <td>2006</td>
-                <td>F.Sc</td>
-                <td>Federal Board</td>
+                <td>F.Sc(Physics, Mathematics, Statistics)</td>
+                
               </tr>
               <tr>
                 <td>2004</td>
-                <td>SSC</td>
-                <td>Federal Board</td>
+                <td>SSC(Physics, Chemistry, Biology)</td>
+               
               </tr>
             </tbody>
           </table>
@@ -116,6 +116,8 @@ export default function Home() {
           <ul>
             <li>"Certified Cloud Native Applied Generative AI Engineer" course from The Presidential Initiative for Artificial Intelligence and Computing (PIAIC), started in 2023.</li>
             In this course, I learned about:
+            <li>Agentic AI</li>
+            <li>Generative AI</li>
             <li>Typescript</li>
             <li>Next.js</li>
             <li>Tailwind CSS</li>
